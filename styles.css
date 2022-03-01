@@ -21,7 +21,9 @@
     display: flex;
     place-content: center;
 }
-
+.second-block{
+    margin-top: 300px;
+}
 
 .title{
 
@@ -58,6 +60,8 @@
     display: flex;
     justify-content: space-between;
     gap: calc(0.017 * var(--container-width));
+
+    margin-bottom: 300px;
   
 }
 .comment__item{
@@ -75,7 +79,7 @@
     overflow-y: auto ;
     
 }
-.comment__item::before{
+.triangle::before{
     content: url(/images/triangle.svg);
     position: relative;
     bottom: -205px;
@@ -106,7 +110,11 @@
 
 .customer__info{
     text-align: left;
-    margin-left: 0.09%;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 
@@ -122,6 +130,47 @@
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 16px;
+}
+
+
+.feature{
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature__name{
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    min-height: 100px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32.68px;
+    text-transform: capitalize;
+}
+
+.feature__description{
+    margin-top: 8px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    
+
+}
+
+.feature__wrapper{
+     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* gap: calc(0.017 * var(--container-width)); */
 }
