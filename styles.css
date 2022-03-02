@@ -37,11 +37,15 @@
     font-size: 36px;
     line-height: 42px;
 }
-.underline{
-    margin: 0 auto 32px;
-    max-height: 0px;
+
+
+hr{
     width: 170px;
-    border: 1px solid #EC7979; 
+    margin: 0 auto;
+    border: 1px solid #EC7979;
+    size: 1px;
+    background-color: #EC7979;
+    margin: 0 auto 32px;
 }
 
 
