@@ -75,7 +75,7 @@ hr{
     
 }
 .triangle::before{
-    content: url(./images/triangle.svg);
+    content: url(../images/triangle.svg);
     position: relative;
     bottom: -205px;
     left: 20%;
