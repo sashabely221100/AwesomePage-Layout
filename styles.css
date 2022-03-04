@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   font-family: Roboto;
+}
+
+
+
+body{
+    background-color: #F0EFEB;
+    
+
+}
+
+.header{
+    /* height: fit-content;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    
+     */
+        height: 56px;
+    position: sticky;
+    display: flex;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+
+.header__nav{
+    
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__list{
+    height: fit-content;
+    width: 100vw;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    /* line-height: 26px; */
+    /* identical to box height, or 165% */
+
+
+    color: #1C1B1B;
+    
+}
+
+.header__list__links{
+    display: flex;
+    /* justify-items: space-between; */
+    align-items: center;
+    gap: 28px;
+}
+.header__logo{
+   
+    margin-top: 10px;
+    margin-right: 20%;
+    /* display: flex; */
+    /* margin: 0 auto; */
+
+}
+
+.header__list__image{
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+}
+.header__list__item{
+    height: 100%;
+    /* align-self: center; */
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.about{
+    max-width: fit-content;
+    align-self: center;
+    flex-shrink: 1;
+}
+
+.content{
+   
+    margin: 30px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    align-items: center;
+    padding: 0 20px;
+
+
+}
+
+.about__heading{
+    max-width: 534px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+
+
+    margin-bottom: 26px;
+
+    
+}
+.about__images{
+    max-width: 80vw;
+    
+    
+}
+.about__text{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.about__button{
+    min-width: 24%;
+    padding: 0 15px;
+    height: 36px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+}
