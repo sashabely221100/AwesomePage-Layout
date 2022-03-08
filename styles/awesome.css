@@ -19,8 +19,6 @@
 .title{
 
     align-self: center;
-    /* min-height: 100%; */
-    /* font styles */
     text-transform: uppercase;
     font-family: Raleway;
     font-style: normal;
@@ -167,5 +165,4 @@ hr{
      width: 100%;
     display: flex;
     justify-content: space-between;
-    /* gap: calc(0.017 * var(--container-width)); */
 }

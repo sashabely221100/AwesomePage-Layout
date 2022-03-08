@@ -1,11 +1,9 @@
 @import"https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap";
 
-body{
-	
-}
+
 .wrapper {
 	max-width: 1170px;
-	margin: 0px auto;
+	margin: 0 auto;
 	border: 1px solid #c6cbcd
 }
 
@@ -31,7 +29,7 @@ body{
 	text-align: center
 }
 
-.tabs__panel--txt {
+.tabs__panel-txt {
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -41,7 +39,7 @@ body{
 	align-self: center
 }
 
-.tabs__panel--txt:hover {
+.tabs__panel-txt:hover {
 	cursor: pointer
 }
 
