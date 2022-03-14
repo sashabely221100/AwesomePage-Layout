@@ -36,11 +36,12 @@
 	font-size: 14px;
 	line-height: 19px;
 	text-align: center;
-	align-self: center
+	align-self: center;
+	text-transform: uppercase;
 }
 
 .tabs__panel-txt:hover {
-	cursor: pointer
+	cursor: pointer;
 }
 
 .tabs__panel__item--active {
