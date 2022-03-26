@@ -12,9 +12,7 @@
     display: flex;
     place-content: center;
 }
-.second-block{
-    margin-top: 300px;
-}
+
 
 .title{
 
@@ -34,7 +32,7 @@ hr{
     border: 1px solid #EC7979;
     size: 1px;
     background-color: #EC7979;
-    margin: 0 auto 32px;
+    margin: 0 auto 40px;
 }
 
 
@@ -138,25 +136,23 @@ hr{
 }
 
 .feature__name{
-    display: flex;
-    justify-content: center;
-    margin-top: 39px;
-    min-height: 100px;
+      display: flex;
+    height: 100px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 32.68px;
     text-transform: capitalize;
+    align-items: center;
 }
 
 .feature__description{
-    margin-top: 8px;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 16px;
+    line-height: 21px;
     
 
 }

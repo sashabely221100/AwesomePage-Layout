@@ -1,13 +1,11 @@
 
 @import url(./awesome.css);
 @import url(./tabs.css);
+@import url(./pricing.css);
 *{
     --container-width:1170px;
 
 
     margin: 0;
     padding: 0;
-}
-body{
-    padding: 0 15px;
 }
