@@ -52,7 +52,7 @@ hr{
     justify-content: space-between;
     gap: calc(0.017 * var(--container-width));
 
-    margin-bottom: 300px;
+    margin-bottom: 225px;
   
 }
 .comment__item{
