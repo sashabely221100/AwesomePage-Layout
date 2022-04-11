@@ -692,6 +692,10 @@ svg:hover path{
 }
 @media (min-width:320px) and (max-width:1024px) {
    .triangle::before {
-    bottom: -212px;
+    bottom: -184px;
+  }
+
+  .comment__box {
+    padding-top: 20px;
   }
 }
