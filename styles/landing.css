@@ -646,6 +646,10 @@ box-shadow: inset 0px 0px 10px #AB4949;
   .tabs__content--right{
       display: none;
     }
+    .tabs__content__button{
+      height: 50px;
+      align-self: center;
+    }
 }
 
 @media (max-width:890px) {
