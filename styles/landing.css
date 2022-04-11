@@ -741,7 +741,7 @@ box-shadow: inset 0px 0px 10px #AB4949;
   }
  
   .options__item{
-    min-width: 60% !important;
+    min-width: 80% !important;
     transition: all .2 linear;
   }
   .options__item:hover{
