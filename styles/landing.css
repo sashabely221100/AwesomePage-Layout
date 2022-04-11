@@ -771,6 +771,8 @@ box-shadow: inset 0px 0px 10px #AB4949;
 
 @media (max-width:320px) {
  
+
+
   .main__content--left{
     max-width: 100%;
   }
@@ -780,6 +782,9 @@ box-shadow: inset 0px 0px 10px #AB4949;
   .main__social{
       padding: 10px 0;
       flex-direction: column;
+  }
+  .triangle::before {
+    bottom: -212px;
   }
  
 }
