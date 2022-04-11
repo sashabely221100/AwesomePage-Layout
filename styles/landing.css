@@ -733,9 +733,9 @@ box-shadow: inset 0px 0px 10px #AB4949;
   
 }
 @media (max-width:487px) {
-  /* .nav__links__item--link{
-     font-size: .6rem;
-   } */
+  .btn1{
+    width: 80% !important;
+  }
     .options__item__price{
     flex-grow: 1;
   }
@@ -786,5 +786,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
   .triangle::before {
     bottom: -212px;
   }
+  
  
 }
