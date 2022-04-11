@@ -532,6 +532,10 @@ svg:hover path{
 .contact-us__form__button:hover {
   transform: scale(1.05);
   background: #AB4949;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .contact-us__form__button:active {
