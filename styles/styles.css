@@ -3,6 +3,7 @@
 @import url(./tabs.css);
 @import url(./pricing.css);
 @import url(./landing.css);
+@import url(./burger.css);
 *{
     --container-width:1170px;
 }
@@ -10,6 +11,7 @@
     font-style: 16px;
 }
 body{
+    
     margin: 0;
     padding: 0;
 }
