@@ -18,16 +18,27 @@
     <header class="nav">
         <nav class="nav__container">
             <div class="nav__logo">
-                <a href="#"> <img src="./images/landing/axit.svg" alt="">
+                <a href="#"> <img class="nav__logo--image" src="./images/landing/axit.png" alt="">
                 </a>
             </div>
             <ul class="nav__links">
-                <li class="nav__links__item"> <a class="nav__links__item--link" href="#features">Features</a> </li>
-                <li class="nav__links__item"> <a class="nav__links__item--link" href="#about">About</a></li>
-                <li class="nav__links__item"> <a class="nav__links__item--link" href="#pricing">Pricing</a></li>
-                <li class="nav__links__item"><a class="nav__links__item--link" href="#reviews">Reviews</a></li>
-                <li class="nav__links__item"><a class="nav__links__item--link" href="#contact">Contact</a></li>
+                <li class="nav__links__item">
+                    <a class="nav__links__item--link" href="#features">Features</a>
+                </li>
+                <li class="nav__links__item">
+                    <a class="nav__links__item--link" href="#about">About</a>
+                </li>
+                <li class="nav__links__item">
+                    <a class="nav__links__item--link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav__links__item">
+                    <a class="nav__links__item--link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav__links__item">
+                    <a class="nav__links__item--link" href="#contact">Contact</a>
+                </li>
             </ul>
+            <input type="checkbox" hidden name="" id="">
         </nav>
     </header>
 
@@ -125,7 +136,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="tabs" id="about">
         <div class="tabs__panel">
             <div class="tabs__panel__item tabs__panel__item--active">
                 <p class="tabs__panel-txt ">TAB 1</p>
@@ -170,7 +181,7 @@
 
     </div>
     <!-- !Awesome -->
-    <div class="container">
+    <div class="container" id="features">
         <div class="text-wrapper">
             <h2 class="title">why this is awesome</h2>
         </div>
@@ -195,19 +206,17 @@
             </div>
 
             <div class="feature">
-                <div class="feature">
-                    <img src="./images/feature3.svg" alt="Thoughtful design">
-                    <h4 class="feature__name">Thoughtful design</h4>
-                    <h5 class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-                    </h5>
-                </div>
+                <img src="./images/feature3.svg" alt="Thoughtful design">
+                <h4 class="feature__name">Thoughtful design</h4>
+                <h5 class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+                </h5>
             </div>
         </div>
     </div>
 
     <!-- !Pricing -->
-    <div class="pricing__wrapper">
+    <div class="pricing__wrapper" id="pricing">
         <div class="title">
             <div class="title__wrapper">
                 <h2 class="title__text">Pricing options</h2>
@@ -270,7 +279,7 @@
     </div>
     <!-- !customers -->
 
-    <div class="container">
+    <div class="customers container " id="reviews">
         <div class="text-wrapper ">
             <h2 class="title">What our customers are saying</h2>
         </div>
@@ -358,7 +367,7 @@
     </div>
 
     <!-- !contact -->
-    <div class="contact-us">
+    <div class="contact-us" id="contact">
         <div class="contact-us__title--wrapper">
             <h2 class="contact-us__title">CONTACT US</h2>
         </div>

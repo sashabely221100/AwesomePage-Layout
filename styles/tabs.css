@@ -7,6 +7,10 @@
 	border: 1px solid #c6cbcd
 }
 
+.tabs{
+	padding: 0 15px;
+}
+
 .tabs__panel {
 	position: relative;
 	top: 1px;
@@ -107,9 +111,14 @@
 	background: #AB4949;
 }
 
+.tabs__content--right{
+	position: relative;
+    right: 4px;
+}
+
 .tabs__content__button:active {
 	background: #EC7979;
-box-shadow: inset 0px 0px 10px #AB4949;
+	box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 .tabs__content--image {

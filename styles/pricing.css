@@ -7,7 +7,7 @@
 }
 .pricing__wrapper{
     background-color: #F5F5F5;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 
@@ -75,6 +75,7 @@
 
 .options__item--field{
     height: fit-content;
+    padding: 0 15px;
     display:flex;
     flex-direction:column;
     justify-content:space-around;

@@ -5,9 +5,9 @@
 @import url(./landing.css);
 *{
     --container-width:1170px;
-
-
-
+}
+:root{
+    font-style: 16px;
 }
 body{
     margin: 0;
