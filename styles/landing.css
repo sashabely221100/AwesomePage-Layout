@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&display=swap');
 
-
 html{overflow-x: hidden;}
 body{
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  
 }
-
 .nav{
   position: fixed;
   width: 100%;
@@ -60,25 +57,19 @@ body{
   justify-content: center;
   place-self: center;
 }
-
 .nav__links__item{
   list-style-type: none;
   width: 100%;
   justify-content: center;
   height: 100%;
 }
-
-
 .nav__links__item--link{
   transition: all .2s linear;
   display: flex;
-  /* margin: 0 auto; */
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
-
-  /* typography */
   text-align: center;
   font-family: 'Open Sans';
   font-style: normal;
@@ -88,8 +79,6 @@ body{
   color: #FFFFFF;
   text-decoration: none;
 }
-
-
 .nav__links__item--link:hover{
   font-weight: 700;
   font-size: 1rem;
@@ -124,9 +113,7 @@ body{
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
-  
 }
-
 .main__content{
   display: flex;
   flex-wrap: wrap;
@@ -135,11 +122,6 @@ body{
   padding-top: 200px;
   gap: 30px;
 }
-
-
-
-
-
 .main__content__logo{
   flex-grow: 0;
   max-width: 170px;
@@ -152,18 +134,14 @@ body{
   max-width: 57%;
   max-height: 52%;
 }
-
 .main__content__line{
-  /* align-items: left; */
   width: 25%;
   border: 1px solid #FFFFFF;
   background-color: #fff;
   position: relative;
   align-self: flex-start;
   margin: 0;  
-
 }
-
 .main__content__title{
   font-family: 'Raleway';
   font-style: normal;
@@ -176,9 +154,6 @@ body{
   color: #FFFFFF;
   margin-bottom: 55px;
 }
-
-
-
 .main__content__caption{
   font-family: 'Raleway';
   font-style: normal;
@@ -190,7 +165,6 @@ body{
 
 .main__content__button{
   max-width: 40%;
-   
 }
 .btn1{
   height: 58px;
@@ -215,9 +189,6 @@ body{
   background: #AB4949;
   border: 2px solid #AB4949;
 }
-
-
-
 .main__content__form{
   display: flex;
   flex-direction: column;
@@ -228,7 +199,6 @@ body{
   background-color: #fff;
   border-radius: 10px 10px 20px 20px;
 }
-
 .form__title__wrapper{
   width: fit-content;
   flex-wrap: nowrap;
@@ -250,10 +220,7 @@ body{
   gap: 5px;
   display: flex;
 }
-
-
 .input__wrapper{
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -261,7 +228,6 @@ body{
   margin-bottom: 75px;
 }
 .main__content__form--input{
-
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -272,24 +238,17 @@ body{
   padding-bottom: 16px;
   border: none;
   border-bottom: 1px solid #BDBDBD;
-  
 }
-
 .main__content__form--input:focus{
-outline: 3px solid #EC7979;
-
+  outline: 3px solid #EC7979;
 }
-
 .main__content__form--input textarea:focus, input:focus{
   color: black;
 }
-
 .contact-us-form__textarea, textarea:focus {
   color: black;
 }
-
 .main__content__form__button{
-
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -304,14 +263,12 @@ outline: 3px solid #EC7979;
   color: white;
   transition: all .2s linear;
 }
-
 .main__content__form__button:hover{
   background: #AB4949;
 }
 .main__content__form__button:active{
   background: #EC7979;
 }
-
 .main__social{
   padding: 15px ;
   width: 100%;
@@ -328,55 +285,43 @@ outline: 3px solid #EC7979;
   margin: 0 auto;
   align-content: center;
   justify-content: space-between;
-
 }
-
 .main__social__text{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
 .main__social__text{
   display: flex;
   flex-direction: column;
 }
-
 .main__social--title{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 33px;
-color: #333333;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #333333;
 }
-
 .main__social--caption{
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-color: #86878B;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878B;
 }
-
 .main__social__logos{
   display: flex;
   align-items: center;
 }
-
 .social--logo{
   user-select: none;
 }
-
 svg:hover path{
   fill: #EC7979;
   transition: all .2s linear;
 }
-
-
-/* !sty;ish */
-
 .stylish-banner{
   position: relative;
   z-index: 1;
@@ -393,24 +338,19 @@ svg:hover path{
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
-
 }
-
 .stylish-banner::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: rgba(0, 0, 0, 0.5); 
-    
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5); 
 }
-
 .stylish-banner__line{
   color: white;
   border: 1px solid white;
 }
-
 .stylish-banner__wrapper{
   width: 60%;
   margin: 50px auto;
@@ -418,7 +358,6 @@ svg:hover path{
   align-items: center;
   gap: 40px;
   flex-direction: column;
-
 }
 .stylish-banner__title{
   font-weight: normal;
@@ -432,7 +371,6 @@ svg:hover path{
   width: 370px;
   margin-top: 33px;
 }
-
 .contact-us{
   text-align: center;
   max-width: 60%;
@@ -443,7 +381,6 @@ svg:hover path{
   font-size: 18px;
   line-height: 21px;
 }
-
 .contact-us__caption{
   font-family: 'Raleway';
   font-style: normal;
@@ -453,7 +390,6 @@ svg:hover path{
   color: #86878B;
   margin-bottom: 75px;
 }
-
 .contact-us__title--wrapper{
   width: 100%;
   height: 150px;
@@ -469,13 +405,11 @@ svg:hover path{
   font-size: 36px;
   line-height: 42px;
 }
-
 .contact-us__form{
   margin-top: 90px;
   display: flex;
   width: 100%;
 }
-
 .contact-us-form__input__wrapper{
   width: 100%;
   display: flex;
@@ -491,7 +425,6 @@ svg:hover path{
   flex-direction: column;
   justify-content: space-between;
 }
-
 .contact-us-form__input{
   font-family: 'Open Sans';
   font-style: normal;
@@ -505,7 +438,6 @@ svg:hover path{
   border-bottom: 1px solid #BDBDBD;
   flex-grow: 1;
 }
-
 .contact-us-form__textarea{
   flex-grow: 1;
   border: none;
@@ -518,7 +450,6 @@ svg:hover path{
   color: #BDBDBD;
   border-bottom: 1px solid #BDBDBD;
 }
-
 .contact-us__form__button {
   margin: 50px auto;
   border: 1px solid #ec7979;
@@ -533,7 +464,6 @@ svg:hover path{
   background-color: #ec7979;
   transition: all .15s linear;
 }
-
 .contact-us__form__button:hover {
   transform: scale(1.05);
   background: #AB4949;
@@ -542,12 +472,10 @@ svg:hover path{
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
 }
-
 .contact-us__form__button:active {
   background: #EC7979;
-box-shadow: inset 0px 0px 10px #AB4949;
+  box-shadow: inset 0px 0px 10px #AB4949;
 }
-
 .footer{
   padding: 35px 0 27px;
   width: 100%;
@@ -557,14 +485,12 @@ box-shadow: inset 0px 0px 10px #AB4949;
   gap: 32px;
   flex-direction: column;
 }
-
 .footer__socials{
-    display: flex;
-    justify-content: center;
-    gap: 30px;  
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;  
+  width: 100%;
 }
-
 .footer__credits{
   font-family: 'Raleway';
   font-style: normal;
@@ -573,25 +499,19 @@ box-shadow: inset 0px 0px 10px #AB4949;
   line-height: 21px;
   text-align: center;   
   color: rgba(255, 255, 255, 0.5);
-
 }
-
-
-/* !TODO MEDIA */
-
 @media (max-width:1139px) {
   .feature__wrapper{
       justify-content: center;
   }
 }
-
 @media (max-width:1000px) {
   .nav__links{
     gap: 15px;
   }
   .nav__container{
-  padding: 0 20px;
-  font-size: 16px;
+    padding: 0 20px;
+    font-size: 16px;
   }
   .main__content__button {
     min-width: 240px;
@@ -632,12 +552,10 @@ box-shadow: inset 0px 0px 10px #AB4949;
   .main__content__line{   
     min-width: 170px; align-self: center;
   }
-  
   .form__title__wrapper{
     font-size: 14px;
     margin: 24px;
   }
-
   .main__content__form{
     margin: 0 auto;
     width: max-content;
@@ -645,7 +563,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
   .main__content__form__button{
     height: 45px;
   }
-
   .options{
     flex-wrap: wrap;
     justify-content: center;
@@ -653,7 +570,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
     column-gap: 40px;
     padding-bottom: 30px;
   }
-
   .options__item{
     width: 40%;
   }
@@ -661,7 +577,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 @media (max-width:940px) {
-  
   .tabs__content{
     flex-direction: column;
   }
@@ -681,16 +596,13 @@ box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 @media (max-width:890px) {
-
-   .main__content {
+  .main__content {
     padding-top: 100px;
   }
-
   .main__content__title{
     width: 80%;
     font-size: 2.25em;
     margin: 0 auto;
-  
   }
 }
 
@@ -704,7 +616,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
     flex-wrap: wrap;
     gap: 40px;
   }
-  
   .comment__item{
     height: fit-content;
     margin: 0 auto;
@@ -717,7 +628,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
     justify-content: center;
     margin-top: 30px;
   }
-
   .contact-us-form__input__wrapper--left{
     gap: 20px;
   }
@@ -739,7 +649,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
     .options__item__price{
     flex-grow: 1;
   }
- 
   .options__item{
     min-width: 80% !important;
     transition: all .2 linear;
@@ -752,7 +661,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 @media (max-width:420px) {
-
   .nav__container{
     padding: 0px !important;
   }
@@ -770,9 +678,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 @media (max-width:320px) {
- 
-
-
   .main__content--left{
     max-width: 100%;
   }
@@ -783,9 +688,10 @@ box-shadow: inset 0px 0px 10px #AB4949;
       padding: 10px 0;
       flex-direction: column;
   }
-  .triangle::before {
+ 
+}
+@media (min-width:320px) and (max-width:1024px) {
+   .triangle::before {
     bottom: -212px;
   }
-  
- 
 }
