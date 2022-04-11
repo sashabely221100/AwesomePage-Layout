@@ -5,6 +5,8 @@
     padding: 0 15px;
 }
 
+
+
 .text-wrapper{
     margin-top: 50px;
     width: 100%;
@@ -138,7 +140,8 @@ hr{
 
 .feature__name{
       display: flex;
-    height: 100px;
+    height: fit-content;
+    margin: 10px 0;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
